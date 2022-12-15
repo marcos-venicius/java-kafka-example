@@ -17,3 +17,8 @@ It is a very simple example of kafka usage with java
 - [kafka downloads](https://kafka.apache.org/downloads)
 - quick apache kafka installation on windows [tutorial](https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-windows)
 - [video from Amigoscode](https://youtu.be/SqVfCyfCJqw) that explains better about this project
+
+<br />
+<br />
+
+<p align="center">You should use this as a template, do it and practice too!</p>
