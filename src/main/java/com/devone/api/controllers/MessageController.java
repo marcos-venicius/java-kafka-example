@@ -1,5 +1,6 @@
 package com.devone.api.controllers;
 
+import com.devone.KafkaTopics;
 import com.devone.api.controllers.requests.PublishMessageRequest;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,6 +19,6 @@ public class MessageController {
 
     @PostMapping("/publish")
     public void publish(@RequestBody PublishMessageRequest request) {
-        kafkaTemplate.send("devone", request.message());
+        kafkaTemplate.send(KafkaTopics.EXAMPLE, request.message());
     }
 }
